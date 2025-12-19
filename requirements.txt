@@ -1,0 +1,24 @@
+# FastAPI 및 서버
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic>=2.5.0,<3.0.0
+pydantic-settings>=2.1.0
+
+# ML/NLP 모델
+torch==2.5.1
+torchvision==0.20.1
+transformers>=4.40.0
+sentence-transformers>=2.3.1
+huggingface_hub[hf_xet]>=0.23.0
+hf_xet>=0.1.0
+
+# 한글 처리
+jamo==0.4.1
+
+# 유틸리티
+numpy>=1.26.0,<2.0.0
+scipy>=1.11.4,<2.0.0
+requests==2.31.0
+
+# 개발 도구
+python-multipart>=0.0.6
